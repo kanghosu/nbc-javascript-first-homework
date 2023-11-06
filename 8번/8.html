@@ -1,1 +1,22 @@
-<button class="btn">prompt 창 띄우기</button>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button class="btn">prompt 창 띄우기</button>
+    <script>
+      let btn = document.querySelector(".btn");
+
+      btn.addEventListener("click", function () {
+        let userInput = prompt("입력하세요:");
+
+        if (userInput !== null) {
+          alert("입력한 내용: " + userInput);
+        }
+      });
+    </script>
+  </body>
+</html>

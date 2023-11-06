@@ -1,0 +1,33 @@
+#full {
+  background-color: gray;
+  margin: auto; /* 중앙 맞춤 */
+}
+#left {
+  width: 200px;
+  float: left;
+}
+.red {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+#center {
+  width: 200px;
+  float: left;
+}
+.blue {
+  background-color: #0000ff;
+  width: 200px;
+  height: 200px;
+}
+
+#right {
+  width: 200px;
+  float: left;
+}
+.black {
+  background-color: black;
+  width: 200px;
+  height: 200px;
+}
